@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center; 
+            margin-top: 100px;
+        }
+        caption{
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+
+      </style>
+</head>
+<body>
+    <!-- You are given 12 files; 6 audio and 6 video.
+    Design a website using HTML only which shows these 12 files.
+    1.mp3, 2.mp3 .... 6.mp3
+    1.mp4, 2.mp4 .... 6.mp4 -->
+    <header>
+        <h1>My Beautiful Website</h1>
+    </header>
+    <main>
+        <table> <caption><strong>Enjoy Audio And Video</strong></caption>
+            <tr>
+                <td><audio src="1.mp3" controls preload="auto">1</audio></td>
+                <td><audio src="2.mp3" controls loop>2</audio></td>
+                <td><audio src="3.mp3" controls autoplay>3</audio></td>
+            </tr>
+            <tr>
+                <td><audio src="4.mp3" controls muted>4</audio></td>
+                <td><audio src="5.mp3" controls>5</audio></td>
+                <td><audio src="6.mp3" controls>6</audio></td>
+            </tr>
+            <tr>
+            </table>
+        <nav>
+            <ul>
+                <li><video src="1.mp4" height="344"controls muted poster="img.jpeg"></video></li>
+            <li><video src="2.mp4" height="344"controls></video></li>
+            <li><video src="3.mp4" height="344"controls></video></li>
+            <li><video src="4.mp4" height="344"controls></video></li>
+            <li><video src="5.mp4" height="344"controls></video></li>
+            <li><video src="6.mp4" height="344"controls></video></li>
+            </ul>
+        </nav>
+    </main>
+                
+    <footer>
+        About Us | Contact Buyer Terms and Conditions & Privacy Policy
+| Refund Policy
+    </footer>
+    
+    
+
+</body>
+</html>
