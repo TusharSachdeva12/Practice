@@ -1,0 +1,26 @@
+.logo img{
+    width: 164px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI';
+}
+.right ul {
+    display: flex;
+    gap: 35px;
+}
+.right ul li{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+
+}
+.right ul li span{
+    padding: 0 5px;
+}
+ul:hover{
+    cursor: pointer;
+}
