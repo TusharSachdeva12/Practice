@@ -20,9 +20,9 @@ Hub
 
 */
 console.log("New Business Name");
-let r1=Math.floor(Math.random())*3
-let r2=Math.floor(Math.random())*3
-let r3=Math.floor(Math.random())*3
+let r1=Math.floor(Math.random()*3)
+let r2=Math.floor(Math.random()*3)
+let r3=Math.floor(Math.random()*3)
 let adjective={
     0:"Crazy",
     1:"Amazing",
