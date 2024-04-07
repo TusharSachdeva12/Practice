@@ -7,7 +7,7 @@ const addItem = async (item) => {
 
 const randomDelay = () => {
     return new Promise((resolve, reject) => {
-        timeout = 1 + 6 * Math.random();
+        timeout = 1 + 7 * Math.random();
         setTimeout(() => {
             resolve()
         }, timeout * 1000);
