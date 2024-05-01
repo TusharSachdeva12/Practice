@@ -13,8 +13,8 @@
 .container {
     position: relative;
     height: 80vh;
-    width: 80vw;
-    background-color: rgb(13, 193, 70);
+    width: 120vw;
+    background-color: rgb(54, 192, 242);
 }
 @keyframes BounceX {
     from{
